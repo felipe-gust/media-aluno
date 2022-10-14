@@ -33,6 +33,7 @@ public class Alunos extends Calculadora {
 		this.notas = notas;
 	}
 	
+	/* calcula média alunos */
 	public double getMedia() {
 		double nota1Num = Double.parseDouble(nota1);
 		double nota2Num = Double.parseDouble(nota2);
